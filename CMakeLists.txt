@@ -10,4 +10,4 @@ ADD_EXECUTABLE(main
 )
 
 TARGET_LINK_LIBRARIES(main gtest)
-TARGET_COMPILE_DEFINITIONS(test PRIVATE gtest_disable_pthreads=ON)
+TARGET_COMPILE_DEFINITIONS(main PRIVATE gtest_disable_pthreads=ON)
