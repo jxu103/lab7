@@ -6,7 +6,8 @@ SET(CMAKE_CXX_STANDARD 11)
 
 ADD_EXECUTABLE(main
 	main.cpp
-
+	iterator.cpp
+	composite.cpp
 )
 
 TARGET_LINK_LIBRARIES(main gtest)
